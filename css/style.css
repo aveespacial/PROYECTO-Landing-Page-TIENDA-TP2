@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;;
+}
+
+main {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(140, 99, 10);
+}
+
+p {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(126, 93, 9);
+}
+
+.lista-de-productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 80px;
+    width: 60%;
+    align-items: center;
+
+}
+
+.card {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.card > img {
+    width: 90%;
+    height: 250px;
+}
+
+.price {
+    color: rgb(209, 155, 19);
+    font-size: 22px;
+}
+
+.card button {
+    border-radius: 1rem;
+    padding: 12px;
+    color: white;
+    background-color:rgba(227, 178, 44, 0.273);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.description {
+    color: rgb(63, 47, 11);
+}
+
+
+.card2 {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.imagen-descripcion {
+    display: flex;
+    content: 10%;
+    margin: 5%;
+}
+
+.imagen {
+    display: flex;
+    border-radius: 1rem;
+    width: 20%;
+}
+
+.boton-inicio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.descriptionLarge {
+    color: rgb(110, 79, 7);
+    font-size: 20px;
+    padding: 3rem;
+    line-height: 5rem;
+}
+
+.price-product {
+    color: rgb(134, 84, 9);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.inicio{
+    display: flex;
+   justify-content: center;
+    border-radius: 1rem;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:rgba(134, 84, 9, 0.694);
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+    .imagen-descripcion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionLarge {
+        color: rgb(229, 108, 9);
+        font-size: 20px;
+        padding: 1rem;
+        line-height: 2rem;
+    }
+
+    .imagen {
+        display: flex;
+        border-radius: 1rem;
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "producto1",
+    "nombre": "Cafetera",
+    "imagen": "./img/cafetera1.jpeg",
+    "descripcion": "Cafetera - Tetera, capacidad 1 litro.",
+    "descripcionLarga": "Cafetera - Tetera, capacidad 1 litro. Material vidrio templado y acero inoxidable. Ideal para preparar tus infusiones fácil y cómodo.",
+    "precio": "$5.000",
+    "puntaje": "⭐⭐⭐⭐⭐"
+  },
+
+  {
+    "id": "producto2",
+    "nombre": "Mate",
+    "imagen": "./img/mate1.jpeg",
+    "descripcion": "Mate de la selección",
+    "descripcionLarga": "Mate de la selección, escudo AFA labrado. Color negro. Material acero inoxidable.",
+    "precio": "$4.000",
+    "puntaje": "⭐⭐⭐⭐⭐"
+  },
+
+  {
+    "id": "producto3",
+    "nombre": "Taza",
+    "imagen": "./img/taza1.png",
+    "descripcion": "Taza de vidrio",
+    "descripcionLarga": "Taza de vidrio. Capacidad 250ml. Modelo cónico.",
+    "precio": "$700",
+    "puntaje": "⭐⭐⭐⭐⭐"
+  },
+
+  {
+    "id": "producto4",
+    "nombre": "Bandeja de madera",
+    "imagen": "./img/bandejaMadera2.jpeg",
+    "descripcion": "Bandeja de madera",
+    "descripcionLarga": "Bandeja de madera fina barnizada. Medidas 28cm x 15cm .",
+    "precio": "$1.000",
+    "puntaje": "⭐⭐⭐⭐⭐"
+  },
+
+  {
+    "id": "producto5",
+    "nombre": "Bandeja de metal",
+    "imagen": "./img/bandejaMetal1.jpeg",
+    "descripcion": "Bandeja de metal",
+    "descripcionLarga": "Bandeja de metal redonda. Medida 28 cm de diámetro. Apta para horno.",
+    "precio": "$1.200",
+    "puntaje": "⭐⭐⭐⭐⭐"
+  },
+
+  {
+    "id": "producto6",
+    "nombre": "Azucarero",
+    "imagen": "./img/azucarero.jpeg",
+    "descripcion": "Azucarero de vidrio.",
+    "descripcionLarga": "Azucarero de vidrio estilo restorán. Capacidad 300gr, altura 12cm.",
+    "precio": "$1.000",
+    "puntaje": "⭐⭐⭐⭐⭐"
+  }
+]
