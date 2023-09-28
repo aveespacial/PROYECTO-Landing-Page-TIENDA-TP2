@@ -32,7 +32,7 @@
   {
     "id": "producto4",
     "nombre": "Bandeja de madera",
-    "imagen": "./img/bandejaMadera2.jpeg",
+    "imagen": "./img/BandejaMadera2.jpeg",
     "descripcion": "Bandeja de madera",
     "descripcionLarga": "Bandeja de madera fina barnizada. Medidas 28cm x 15cm .",
     "precio": "$1.000",
