@@ -36,7 +36,7 @@ jsonProductos.forEach((product) => {
       descripcion: product.descripcion,
       descripcionLarga: product.descripcionLarga,
       precio: product.precio,
-      puntaje: product.puntaje
+      Puntuación: product.Puntuación
     });
 
     localStorage.setItem("producto", JSON.stringify(productoElegido));
